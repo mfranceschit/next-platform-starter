@@ -54,7 +54,7 @@ function RuntimeContextCard() {
     if (ctx === 'dev') {
         return (
             <Card title={title}>
-                <p>Next.js will rebuild any page you navigate to, including static pages.</p>
+                <p>Next.js will rebuild any page you navigate to, including static pages (and SSR too).</p>
             </Card>
         );
     } else {
