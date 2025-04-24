@@ -13,10 +13,12 @@ const gradientColors = [
 export const fixedSize = 512;
 
 /*
+
 If given existing parameters, creates SVG path based on it (so you can store just the params, not the actual path).
 If not, creates new parameter values first.
 
 Returns { parameters, svgPath }.
+
 */
 export function generateBlob(parameters) {
     parameters = {
